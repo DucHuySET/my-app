@@ -21,6 +21,8 @@ import {
   LanguageSwitchContainer,
 } from "./styles";
 
+import logo from "../../assets/svg/logo.svg";
+
 interface SocialLinkProps {
   href: string;
   src: string;
@@ -136,7 +138,7 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src={logo}
                   aria-label="homepage"
                   width="101px"
                   height="64px"
